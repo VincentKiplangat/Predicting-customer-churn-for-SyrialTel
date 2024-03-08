@@ -22,28 +22,36 @@ The dataset contains 3333 entries and 21 columns, including information about th
 In this phase of the project, we will focus on getting familiar with the data and identifying any potential data quality issues. We will also perform some initial exploratory data analysis to discover first insights into the data.
 
 **Summary of Features in the Dataset**
+# Telecom Company Customer Dataset
 
-**State:** The state the customer lives in  
-**Account Length:** The number of days the customer has had an account.  
-**Area Code:** The area code of the customer  
-**Phone Number:** The phone number of the customer.  
-**International Plan:** True if the customer has the international plan, otherwise false.  
-**Voice Mail Plan:** True if the customer has the voice mail plan, otherwise false.  
-**Number Vmail Messages:** the number of voicemails the customer has sent.  
-**Total Day Minutes:** total number of minutes the customer has been in calls during the day.  
-**Total Day Calls:** total number of calls the user has done during the day.  
-**Total Day Charge:** total amount of money the customer was charged by the Telecom company for calls during the day.  
-**Total Eve Minutes:** total number of minutes the customer has been in calls during the evening.  
-**Total Eve Calls:** total number of calls the customer has done during the evening.  
-**Total Eve Charge:** total amount of money the customer was charged by the Telecom company for calls during the evening.  
-**Total Night Minutes:** total number of minutes the customer has been in calls during the night.  
-**Total Night Calls:** total number of calls the customer has done during the night.  
-**Total Night Charge:** total amount of money the customer was charged by the Telecom company for calls during the night.  
-**Total Intl Minutes:** total number of minutes the user has been in international calls.  
-**Total Intl Calls:** total number of international calls the customer has done.  
-**Total Intl Charge:** total amount of money the customer was charged by the Telecom company for international calls.  
-**Customer Service Calls:** number of calls the customer has made to customer service.  
-**Churn:** true if the customer terminated their contract, otherwise false.  
+This dataset contains information about customers of a telecom company, along with various usage statistics. Each entry in the dataset represents a customer, and the attributes describe different aspects of their account and usage.
+
+## Attributes
+
+| Attribute                | Description                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------------|
+| State                    | The state in which the customer resides.                                                       |
+| Account Length           | The number of days the customer has had the account.                                             |
+| Area Code                | The area code of the customer's phone number.                                                    |
+| Phone Number             | The customer's phone number.                                                                    |
+| International Plan       | A boolean indicating whether the customer has the international calling plan (True or False).   |
+| Voice Mail Plan          | A boolean indicating whether the customer has the voicemail plan (True or False).               |
+| Number Vmail Messages    | The number of voicemail messages the customer has sent.                                          |
+| Total Day Minutes        | The total number of minutes the customer has been in calls during the day.                        |
+| Total Day Calls          | The total number of calls the customer has made during the day.                                   |
+| Total Day Charge         | The total amount of money charged by the telecom company for calls during the day.               |
+| Total Eve Minutes        | The total number of minutes the customer has been in calls during the evening.                    |
+| Total Eve Calls          | The total number of calls the customer has made during the evening.                               |
+| Total Eve Charge         | The total amount of money charged by the telecom company for calls during the evening.           |
+| Total Night Minutes      | The total number of minutes the customer has been in calls during the night.                      |
+| Total Night Calls        | The total number of calls the customer has made during the night.                                  |
+| Total Night Charge       | The total amount of money charged by the telecom company for calls during the night.             |
+| Total Intl Minutes       | The total number of minutes the user has been in international calls.                             |
+| Total Intl Calls         | The total number of international calls the customer has made.                                     |
+| Total Intl Charge        | The total amount of money charged by the telecom company for international calls.                 |
+| Customer Service Calls   | The number of calls the customer has made to customer service.                                     |
+| Churn                    | A boolean indicating whether the customer terminated their contract (True or False).              |
+
 
 
 ## 3.DATA CLEANING
