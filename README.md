@@ -1,1 +1,1 @@
-Predicting customer churn for SyrialTel
+![Telecommunication Image](https://github.com/yourusername/yourrepository/raw/main/telecommunication.png)
