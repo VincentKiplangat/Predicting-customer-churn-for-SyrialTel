@@ -1,5 +1,5 @@
 ## PREDICTING CUSTOMER CHURN IN SYRIATEL
-![Telecommunication Image](https://github.com/VincentKiplangat/Predicting-customer-churn-for-SyrialTel/raw/main/Telecommunication.jpg)
+![Telecommunication Image](https://github.com/VincentKiplangat/Predicting-customer-churn-for-SyrialTel/Telecommunication.jpg)
 ### NOTEBOOK STRUCTURE
 1.Business Understanding
 2.Data Understanding
