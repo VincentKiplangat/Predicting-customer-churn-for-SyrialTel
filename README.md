@@ -22,8 +22,8 @@ This project is centred on building a classifier on whether a customer will soon
 ### *Stakeholders and Their Interests:* ###
 The key stakeholder impacted by this project is the SyrialTel Telecom Business. Their interest is trying to predict whether there is a predictable pattern to customer churning and possible ways to reduce customer churning.
 
-**Benefits for Syrialtel Customer Churn:**
-- *Informed Decision-Making*: SyrialTel can provide its clients with data-driven insights to reduce their losses from customer churn 
+**Benefits for Syrialtel Telecommunication Company:**
+- *Informed Decision-Making*: SyrialTel can use data-driven insights to make informed decisions that can reduce their losses from customer churn 
 - *Tailored Advice*: Customized recommendations based on the unique features of SyrialTel communication.
 - *Minimised Churn and thus losses*: SyrialTel can know the do's and don't to minimise the customer churn rate which in turn leads to money loss reduction because of customers who do not stick around. 
 
