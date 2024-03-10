@@ -157,6 +157,6 @@ voicemail messages from unauthorized access and ensure customer privacy and data
 4. Collecting more diverse data: Expand the dataset by gathering a wider range of customer attributes, behaviors, and interactions to enhance the model's predictive capabilities and capture more nuanced patterns of churn behavior.
 
 ### Repository Guide ###
-Notebook : [github](https://github.com/VincentKiplangat/Predicting-customer-churn-for-SyrialTel/blob/main/SyrialTel.ipynb)
-The dataset used:[Kaggle](https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
-Presentation: [Canva](https://www.canva.com/design/DAF-7cYSgXQ/DL-dSZ7tITgqiHc9t_ECQA/view)
+- Notebook : [github](https://github.com/VincentKiplangat/Predicting-customer-churn-for-SyrialTel/blob/main/SyrialTel.ipynb)
+- The dataset used:[Kaggle](https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
+- Presentation: [Canva](https://www.canva.com/design/DAF-7cYSgXQ/DL-dSZ7tITgqiHc9t_ECQA/view)
