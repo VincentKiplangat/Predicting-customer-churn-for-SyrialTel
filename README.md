@@ -1,9 +1,9 @@
 
 # SYRIATEL PREDICTIVE ANALYSIS OF CUSTOMER CHURN 
-![Telecommunication Image](Telecomunication.jpg)
+![Telecommunication Image](images/Telecomunication.jpg)
 
 ## INTRODUCTION
-Syriatel, a telecommunications provider in Damascus, Syria, aims to predict customer churn by analyzing their data. The goal is to forecast if a customer will stop using their services. For telecom companies to grow revenue, attracting new customers while retaining existing ones is crucial. SyriaTel, offering mobile and data services, recognizes that maintaining long-term customer relationships is more effective than constantly seeking new ones. Hence, churn prediction is part of their key strategy.
+Syriatel, a telecommunications provider in Damascus, Syria, aims to predict customer churn by analyzing their data. Their main goal is to forecast if a customer will stop using their services. For telecom companies to grow revenue, attracting new customers while retaining existing ones is crucial. SyriaTel, offering mobile and data services, recognizes that maintaining long-term customer relationships is more effective than constantly seeking new ones while loosing existing customers. Hence, churn prediction is part of their key strategy.
 
 ### OVERVIEW
 This project is centred on building a classifier on whether a customer will soon stop doing business with SyriaTel telecommunications company. The project is a binary classification project that aims to develop a model which accurately predicts customers who are most likely to churn and identify the features that are important for predicting customer churn. Thus, advise SyrialTel on ways to reduce customer churn if there is a predictable pattern.
@@ -24,7 +24,7 @@ The key stakeholder impacted by this project is the SyrialTel Telecom Business. 
 
 **Benefits for Syrialtel Telecommunication Company:**
 - *Informed Decision-Making*: SyrialTel can use data-driven insights to make informed decisions that can reduce their losses from customer churn 
-- *Tailored Advice*: Customized recommendations based on the unique features of SyrialTel communication.
+- *Tailored Advice*: Customized recommendations based on the unique features and strength of SyrialTel telecommunication Company.
 - *Minimised Churn and thus losses*: SyrialTel can know the do's and don't to minimise the customer churn rate which in turn leads to money loss reduction because of customers who do not stick around. 
 
 ### OBJECTIVES ###
@@ -78,7 +78,7 @@ The data types include categorical, numerical and boolean data.
 
 - Numerical Data: These are variables that represent numerical values. This includes both integer and floating-point numbers, such as 'account length', 'area code', 'number vmail messages', 'total day minutes', 'total day charge', 'total eve minutes', 'total eve charge', 'total night minutes', 'total night charge', 'total intl minutes', 'total intl charge', 'total day calls', 'total eve calls', 'total night calls', 'total intl calls', and 'customer service calls'.
 
-### Data Relevance to the Project:###
+### Data Relevance to the Project: ###
 The dataset contains a variety of factors crucial for understanding customer behavior and forecasting churn for SyrialTel Company. Essential attributes include customer subscriptions like international plans and voice mail plans, as well as call usage statistics such as total day minutes and total night minutes. The 'Churn' column, which acts as the target variable, distinguishes between customers who have terminated their service ('True') and those who haven't ('False'). This comprehensive dataset lays the groundwork for building a predictive model to accurately identify churn risks and implement focused retention strategies. This aligns with the project's goal of effectively reducing customer churn.
 
 ### Independent and Dependent variables ###
@@ -106,6 +106,7 @@ Based also on the Test ROC and AUC score, which is measure of the ability of mod
 
 ### **Top five features** ###
 
+![Top five features](images/Top_five_features.png)
 The top five features that were also crucial in determining the churn of customers were:
 -  **Customer Service calls:** The number of customer services calls made by a customer
 - **Total day minutes:** The total amount of time the customer has spent on daytime calls in minutes
@@ -123,7 +124,7 @@ Several predictive models were built, from which the top-performing one was sele
 2. The classifiers were identified using metrics such as accuracy, precision, recall, F1 score, and confusion matrix after which XGBoost was selected as being the most effective.
 3. Actionable recommendations given based on the analysis.
 
-**The Objectives were all met.**
+**YES, The Objectives were all met.**
 
 ## 8.CONCLUSION
 ### Recommendations ###
@@ -154,3 +155,8 @@ voicemail messages from unauthorized access and ensure customer privacy and data
 3. Interpreting the model insights: Analyze the model's predictions and identify the key factors influencing customer churn, providing valuable insights for targeted retention efforts and strategic decision-making.
 
 4. Collecting more diverse data: Expand the dataset by gathering a wider range of customer attributes, behaviors, and interactions to enhance the model's predictive capabilities and capture more nuanced patterns of churn behavior.
+
+### Repository Guide ###
+Notebook : [github](https://github.com/VincentKiplangat/Predicting-customer-churn-for-SyrialTel/blob/main/SyrialTel.ipynb)
+The dataset used:[Kaggle](https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
+Presentation: [Canva](https://www.canva.com/design/DAF-7cYSgXQ/DL-dSZ7tITgqiHc9t_ECQA/view)
