@@ -78,7 +78,8 @@ The data types include categorical, numerical and boolean data.
 
 - Numerical Data: These are variables that represent numerical values. This includes both integer and floating-point numbers, such as 'account length', 'area code', 'number vmail messages', 'total day minutes', 'total day charge', 'total eve minutes', 'total eve charge', 'total night minutes', 'total night charge', 'total intl minutes', 'total intl charge', 'total day calls', 'total eve calls', 'total night calls', 'total intl calls', and 'customer service calls'.
 
-- Boolean Data: This data type represents variables that can have only two possible values, typically 'True' or 'False'. In this dataset, the 'churn' column is boolean, indicating whether a customer has churned ('True') or not ('False').
+### Data Relevance to the Project:###
+The dataset contains a variety of factors crucial for understanding customer behavior and forecasting churn for SyrialTel Company. Essential attributes include customer subscriptions like international plans and voice mail plans, as well as call usage statistics such as total day minutes and total night minutes. The 'Churn' column, which acts as the target variable, distinguishes between customers who have terminated their service ('True') and those who haven't ('False'). This comprehensive dataset lays the groundwork for building a predictive model to accurately identify churn risks and implement focused retention strategies. This aligns with the project's goal of effectively reducing customer churn.
 
 ### Independent and Dependent variables ###
 The dataset contains 21 features and of the 21:
@@ -89,5 +90,67 @@ The dataset contains 21 features and of the 21:
 The data was loaded and assessed after which some EDA was performed for better understanding. There were no missing values and no duplicates. All of the categorical features were changed for one hot encoding to be performed so that the data could be fit for modelling. The numerical features were also normalised to equalize the features and improve model performance. 
 
 ## 6.MODELING
+The data was split into the training and test datasets with the training data used to fit the models and the test data used to evaluate them. The baseline model was created using Logistic Regression. KNN Model, Decision Trees, Random Forest and XGBoost were used. The modelling process was achieved by performing model tuning by hyperparameter tuning or feature importance selection to come up with the best model.
 ## 7.EVALUATION
+### Best Model ###
+From the different models used, which were:
+1. Base Model - Logistic regression
+2. K-Nearest Neighbours (KNN)
+3. Decision trees
+4. Random Forest classiffier 
+5. XGBoost
+
+The Best overal model proved to be the XGBoost model given that:
+Based on accuracy, The best model was one from XGBoost with an test accuracy of 91.97% and training accuracy of 95.64%.
+Based also on the Test ROC and AUC score, which is measure of the ability of model to distinguish positive and negative outcomes, XGBoost was the best with a score of 90%.
+
+### **Top five features** ###
+
+The top five features that were also crucial in determining the churn of customers were:
+-  **Customer Service calls:** The number of customer services calls made by a customer
+- **Total day minutes:** The total amount of time the customer has spent on daytime calls in minutes
+- **Number vmail messages:** Represent the number of voicemail messages left by a customer.
+- **Total eve minutes:** The total number of minutes the customer has been in calls during the evening.
+- **Total intl calls:** The total number of international calls the customer has made.
+
+### **Were the Objectives met** ###
+**Main Objective**
+
+Several predictive models were built, from which the top-performing one was selected as the best overall, The **XGBoost** was chosen as was considered fit in predicting the patterns of customers churning
+
+**Specific Objectives**
+1. Key factors influencing cusomer churning was identified as: Customer service calls, Total day minutes, Number of voice mail messages, total evening minutes and total international calls.
+2. The classifiers were identified using metrics such as accuracy, precision, recall, F1 score, and confusion matrix after which XGBoost was selected as being the most effective.
+3. Actionable recommendations given based on the analysis.
+
+**The Objectives were all met.**
+
 ## 8.CONCLUSION
+### Recommendations ###
+1. Improve on customer services: This may include services such as wait time and customer satisfaction.
+
+2. Introduce customised and affordable call plans for boh day and night calls
+
+3. Service Quality Improvement: Continuously monitor service quality metrics such as network reliability, call quality, and data speed, and invest in infrastructure upgrades to ensure optimal service delivery.
+
+4. Transparent Pricing: Provide transparent pricing structures and billing processes to avoid billing disputes and customer dissatisfaction.
+
+5. Proactive Customer Outreach: Regularly reach out to customers to gather feedback, address concerns, and offer assistance before they consider switching providers.
+
+6. Security Measures: Implement stringent security measures to protect 
+voicemail messages from unauthorized access and ensure customer privacy and data protection.
+
+7. Provide a wide range of countries covered by international plan.
+
+8. Constatntly and consistently conduct customer churn analysis 
+
+
+
+### Next Steps ###
+1. Deploying the model: Implement the churn prediction model into the operational environment to start making real-time predictions on customer churn, enabling proactive retention strategies.
+
+2. Monitor and update the model: Continuously track the model's performance and accuracy over time, ensuring it remains effective in predicting churn, and regularly update it with new data to maintain relevance and accuracy.
+
+3. Interpreting the model insights: Analyze the model's predictions and identify the key factors influencing customer churn, providing valuable insights for targeted retention efforts and strategic decision-making.
+
+4. Collecting more diverse data: Expand the dataset by gathering a wider range of customer attributes, behaviors, and interactions to enhance the model's predictive capabilities and capture more nuanced patterns of churn behavior.
